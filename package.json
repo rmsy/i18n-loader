@@ -1,0 +1,26 @@
+{
+  "name": "@sixflags/lingui-react-i18n-loader",
+  "version": "0.1.0",
+  "description": "A dynamic i18n loader for React & lingui",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/rmsy/lingui-react-i18n-loader/",
+  "author": "Isaac Moore <iMoore@sftp.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@lingui/react": "^2.9.1",
+    "react": "^16.13.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "@types/lingui__react": "^2.8.2",
+    "@types/react": "^16.9.44",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1"
+  }
+}
